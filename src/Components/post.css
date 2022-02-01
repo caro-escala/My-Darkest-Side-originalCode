@@ -1,0 +1,13 @@
+.presentation{
+    color: white;
+    background: linear-gradient(90deg, red, black);
+    width: 80%;
+    margin: 10px 10%;
+    border: 5px solid black;
+    text-align: center;
+}
+
+.image{
+ width: 40%;
+ margin: 10px 30%;
+}

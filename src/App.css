@@ -1,0 +1,52 @@
+body{
+  background: linear-gradient(90deg, black, red);
+  color: white;
+  text-align: center;
+}
+
+#headerTitle{
+  color: white;
+  text-shadow: 1px 1px 2px red, 0 0 1em black, 0 0 1em black;
+  font-size: 30pt;
+  margin-bottom: 0;
+}
+
+#headerSubtitle{
+  color: white;
+ 
+  font-size: 22pt;
+  margin-top: 0px;
+}
+
+#postTitle{
+ font-size: 20pt;
+ text-decoration: underline whitesmoke;
+}
+
+#postIntro{
+  font-size: 15pt;
+ }
+
+#postText{
+  font-size: 15pt;
+  padding: 5px 30px;
+}
+
+#image{
+  width: 50%;
+  margin: 10px auto;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px){
+  #image{
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 768px){
+  #image{
+    width: 95%;
+    margin: 0 auto;
+  }
+}
